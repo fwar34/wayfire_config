@@ -7,9 +7,8 @@
 /** ********** Waybar Window ********** **/
 window#waybar {
     background: transparent;
-	color: #1e1e2e;
-	border-color: #072112;
-    
+    color: #1e1e2e;
+    border-color: #072112;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -136,16 +135,16 @@ window#waybar.hidden {
 }
 
 #custom-menu {
-	background-color: #f5c2e7;
-	padding: 0 12px;
+    background-color: #f5c2e7;
+    padding: 0 12px;
     margin: 4px 4px 4px 4px;
     border-radius: 90px;
     background-clip: padding-box;
 }
 
 #custom-power {
-	background-color: #f38ba8;
-	padding: 0 12px;
+    background-color: #f38ba8;
+    padding: 0 12px;
     margin: 4px 4px 4px 4px;
     border-radius: 90px;
     background-clip: padding-box;
@@ -166,7 +165,7 @@ window#waybar.hidden {
 }
 
 /** Common style **/
-#backlight, 
+#backlight,
 #battery,
 #clock,
 #cpu,
@@ -177,7 +176,6 @@ window#waybar.hidden {
 #tray,
 #pulseaudio,
 #network {
-  
   padding: 0 12px;
   margin: 4px 4px 4px 4px;
   border-radius: 90px;
